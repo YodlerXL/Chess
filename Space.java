@@ -8,5 +8,8 @@ public class Space {
     FILE = file;
     RANK = rank;
     COLOR = color;
+
+    public String toString() {
+        return FILE + ' ' + RANK;
     }
 }
